@@ -1,0 +1,52 @@
+/* Header -----------------------------------------------------------------------------*/
+.header {
+	height: 44px;
+
+	background: #e8eef4;
+}
+
+.h-logotype {
+	float: left;
+
+	padding: 10px 0;
+}
+.h-logotype-img {
+	display: block;
+
+	width: 170px;
+	height: 24px;
+}
+
+// Header navigation
+.h-nav {
+	float: right;
+
+	padding: 8px 0;
+}
+.h-nav-list {
+	margin: 0;
+}
+.h-nav-list-item {
+	display: inline-block;
+
+	margin: 0 0 0 24px;
+}
+.h-nav-list-item-link {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+
+	display: inline-block;
+
+	padding: 0 12px;
+
+	transition: background-color .2s linear;
+	text-decoration: none;
+
+	color: $s-color;
+	border-radius: 4px;
+	&:hover {
+		color: #fff;
+		background-color: $b-color;
+	}
+}

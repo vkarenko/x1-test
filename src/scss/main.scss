@@ -1,0 +1,23 @@
+// Third party
+@import 'partials/normalize'; // Normalize.css
+@import '../../bower_components/slick.js/slick/slick.scss'; // Slick.js
+//@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext); // Robot Font
+
+// Custom
+@import 'partials/variables';
+@import 'partials/base';
+
+// UI Elements
+@import 'partials/ui/buttons';
+
+// Sections
+@import 'partials/slider';
+@import 'partials/ranges';
+@import 'partials/benefits';
+@import 'partials/promo';
+
+@import 'partials/header';
+@import 'partials/content';
+@import 'partials/footer';
+
+@import 'partials/responsive';
