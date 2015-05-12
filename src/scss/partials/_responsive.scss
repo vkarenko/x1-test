@@ -1,3 +1,8 @@
+@media screen and (min-width: 760px) {
+	.h-nav-list {
+		display: inline-block!important;
+	}
+}
 @media screen and (max-width: 1000px) {
 	.container {
 		width: 720px;
@@ -40,6 +45,10 @@
 
 @media screen and (max-width: 760px) {
 	.container {
+		position: relative;
+
+		overflow: visible;
+
 		width: 520px;
 	}
 	.mSlider-item-comment {
@@ -66,6 +75,36 @@
 	}
 	.slick-prev, .slick-next {
 		display: none!important;
+	}
+	.h-nav {
+		position: absolute;
+		z-index: 1;
+		top: 44px;
+		right: 0;
+
+		width: 320px;
+		padding: 0;
+
+		background-color: #e8eef4;
+	}
+	.h-nav-icon {
+		position: absolute;
+		top: -36px;
+		right: 12px;
+
+		visibility: visible;
+	}
+	.h-nav-list {
+		display: none;
+
+		width: 100%;
+	}
+	.h-nav-list-item {
+		display: block;
+
+		margin: 0 0 12px;
+
+		text-align: center;
 	}
 }
 

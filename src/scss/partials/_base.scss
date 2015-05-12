@@ -37,3 +37,18 @@ a {
 .strong {
 	font-weight: 400;
 }
+.gNotify {
+	display: none;
+	position: absolute;
+	left: 0; top: 44px;
+	width: 100%;
+	padding: 24px 12px;
+	background-color: #ff0000;
+	color: #fff;
+}
+.noJs-notify {
+	margin: 0;
+}
+.noJs .gNotify {
+	display: block;
+}

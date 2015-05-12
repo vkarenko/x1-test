@@ -7,7 +7,12 @@
 }
 
 .mSlider-item {
+	display: none;
+
 	height: 506px;
+	&:first-child {
+		display: block;
+	}
 }
 
 .mSlider-item-img {
